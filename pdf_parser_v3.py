@@ -1,10 +1,6 @@
 import re
-from gettext import find
-
+import json
 from PyPDF2 import PdfReader
-from debugpy.common import json
-
-from pdf_parser_v3 import json
 
 two_numbers_pattern = "([+-]?[0-9]+([.][0-9]*)?)"
 right_dash_number_pattern = "([-+]?[0-9]*\.[0-9]+)\s[-]"
